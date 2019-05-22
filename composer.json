@@ -1,0 +1,25 @@
+{
+  "name": "comagic/aapi",
+  "description": "Pivot Analytics API",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "O. Nasonov",
+      "email": ""
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.3.3",
+    "monolog/monolog": "2.x-dev",
+    "fguillot/json-rpc": "dev-master",
+    "illuminate/database": "5.6.x-dev",
+    "pimple/pimple": "3.2.x-dev",
+    "symfony/http-foundation": "4.1.x-dev"
+  },
+  "autoload" : {
+    "psr-4" : {"" : "src/"},
+    "files" : ["config.php"]
+  }
+
+}
